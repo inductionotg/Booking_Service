@@ -1,4 +1,5 @@
-const {StatusCodes} = require('http-status-code')
+const {StatusCodes} = require('http-status-codes')
+
 class AppError extends Error{
     constructor(name,message,explanation,statusCodes){
         super();
